@@ -42,8 +42,8 @@ In order to draw a single line on the left and right lanes, I modified the `draw
 
 | Images without average and bottom x postion | Images with average and bottom x postion |
 |:---:|:---:|
-| ![alt text][solidWhiteCurvewoa] | ![alt text][solidWhiteCurvew] |
-| ![alt text][solidWhiteRightwoa] | ![alt text][solidWhiteRightw] |
+| ![alt text][solidWhiteCurvewoa] | ![alt text][solidWhiteCurve] |
+| ![alt text][solidWhiteRightwoa] | ![alt text][solidWhiteRight] |
 | ![alt text][solidYellowCurvewoa] | ![alt text][solidYellowCurve] |
 | ![alt text][solidYellowCurve2woa] | ![alt text][solidYellowCurve2] |
 | ![alt text][solidYellowLeftwoa] | ![alt text][solidYellowLeft] |
