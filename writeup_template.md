@@ -21,12 +21,12 @@ The goals / steps of this project are the following:
 [solidYellowCurve2woa]: ./linesWithoutAverage/HoughLines_solidYellowCurve2.jpg "solidYellowCurve2 without average"
 [solidYellowLeftwoa]: ./linesWithoutAverage/HoughLines_solidYellowLeft.jpg "solidYellowLeft without average"
 [whiteCarLaneSwitchwoa]: ./linesWithoutAverage/HoughLines_whiteCarLaneSwitch.jpg "whiteCarLaneSwitch without average"
-[solidWhiteCurve]: ./linesWithAverage/HoughLines_solidWhiteCurve.jpg "solidWhiteCurve with average"
-[solidWhiteRight]: ./linesWithAverage/HoughLines_solidWhiteRight.jpg "solidWhiteRight with average"
-[solidYellowCurve]: ./linesWithAverage/HoughLines_solidYellowCurve.jpg "solidYellowCurve with average"
-[solidYellowCurve2]: ./linesWithAverage/HoughLines_solidYellowCurve2.jpg "solidYellowCurve2 with average"
-[solidYellowLeft]: ./linesWithAverage/HoughLines_solidYellowLeft.jpg "solidYellowLeft with average"
-[whiteCarLaneSwitch]: ./linesWithAverage/HoughLines_whiteCarLaneSwitch.jpg "whiteCarLaneSwitch with average"
+[solidWhiteCurve]: ./linesWithAverage/AveragedHoughLines_solidWhiteCurve.jpg "solidWhiteCurve with average"
+[solidWhiteRight]: ./linesWithAverage/AveragedHoughLines_solidWhiteRight.jpg "solidWhiteRight with average"
+[solidYellowCurve]: ./linesWithAverage/AveragedHoughLines_solidYellowCurve.jpg "solidYellowCurve with average"
+[solidYellowCurve2]: ./linesWithAverage/AveragedHoughLines_solidYellowCurve2.jpg "solidYellowCurve2 with average"
+[solidYellowLeft]: ./linesWithAverage/AveragedHoughLines_solidYellowLeft.jpg "solidYellowLeft with average"
+[whiteCarLaneSwitch]: ./linesWithAverage/AveragedHoughLines_whiteCarLaneSwitch.jpg "whiteCarLaneSwitch with average"
 
 ---
 
