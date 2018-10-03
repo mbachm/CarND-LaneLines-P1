@@ -38,9 +38,9 @@ The goals / steps of this project are the following:
 My pipeline consisted of 6 steps. First, I calculate the vertices for the `region_of_interest` function as this is a static process for a given image.
 Second, I converted the images to grayscale, then I apply the canny transformation to get the edges. Afterwards, I apply an image mask with the `region_of_interest` function, the in step 1 calculated vertices and the image. The final output is computed by the provided `hough_lines` function.
 
-In order to draw a single line on the left and right lanes, I modified the `draw_lines()` function by seperating the lines by their slope and store the slope and lines in lists for the right and left lane. Afterwars, I calculate the average slope and the x,y position for both lines. Then I define left and right line pairs. To draw a "stable" line from the bottom of the image, I define the a nearly stable x for the left and right lane at the bottom. With all this information, I draw each line separatly.
+In order to draw a single line on the left and right lanes, I modified the `draw_lines()` function by separating the lines by their slope and store the slope and lines in lists for the right and left lane. Afterwards, I calculate the average slope and the x,y position for both lines. Then I define left and right line pairs. To draw a "stable" line from the bottom of the image, I define the a nearly stable x for the left and right lane at the bottom. With all this information, I draw each line separately.
 
-| Images without average and bottom x postion | Images with average and bottom x postion |
+| Images without average and bottom x position | Images with average and bottom x position |
 |:---:|:---:|
 | ![alt text][solidWhiteCurvewoa] | ![alt text][solidWhiteCurve] |
 | ![alt text][solidWhiteRightwoa] | ![alt text][solidWhiteRight] |
@@ -60,6 +60,6 @@ Another shortcoming could be that it does not reject outliniers. Without the out
 
 ###3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to reject outlines. With this improvment, the detected line will be more accurate to the real one.
+A possible improvement would be to reject outlines. With this improvement, the detected line will be more accurate to the real one.
 
 Another potential improvement could be to calculate using the cv2 `polylines` function or use line with each pair of consecutives points.
